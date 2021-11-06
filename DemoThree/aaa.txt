@@ -1,0 +1,9 @@
+tensorflow-gpu
+keras
+pillow
+opencv
+pyqt
+
+
+pip freeze > requirements.txt
+pip install -r requirements.txt

@@ -1,0 +1,95 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'UI_Dialog_UpdateData.ui'
+#
+# Created by: PyQt5 UI code generator 5.13.0
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_Dialog_Update(object):
+    def setupUi(self, Form):
+        Form.setObjectName("Form")
+        Form.resize(469, 341)
+        self.label = QtWidgets.QLabel(Form)
+        self.label.setGeometry(QtCore.QRect(0, 10, 461, 20))
+        font = QtGui.QFont()
+        font.setPointSize(15)
+        self.label.setFont(font)
+        self.label.setAlignment(QtCore.Qt.AlignCenter)
+        self.label.setObjectName("label")
+        self.line = QtWidgets.QFrame(Form)
+        self.line.setGeometry(QtCore.QRect(20, 30, 431, 16))
+        self.line.setFrameShape(QtWidgets.QFrame.HLine)
+        self.line.setFrameShadow(QtWidgets.QFrame.Sunken)
+        self.line.setObjectName("line")
+        self.lb_C12_DBName = QtWidgets.QLabel(Form)
+        self.lb_C12_DBName.setGeometry(QtCore.QRect(160, 200, 291, 20))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.lb_C12_DBName.setFont(font)
+        self.lb_C12_DBName.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+        self.lb_C12_DBName.setObjectName("lb_C12_DBName")
+        self.label_3 = QtWidgets.QLabel(Form)
+        self.label_3.setGeometry(QtCore.QRect(120, 170, 100, 20))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.label_3.setFont(font)
+        self.label_3.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
+        self.label_3.setObjectName("label_3")
+        self.label_4 = QtWidgets.QLabel(Form)
+        self.label_4.setGeometry(QtCore.QRect(79, 80, 141, 20))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.label_4.setFont(font)
+        self.label_4.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
+        self.label_4.setObjectName("label_4")
+        self.bt_C12_ChooseH5 = QtWidgets.QPushButton(Form)
+        self.bt_C12_ChooseH5.setGeometry(QtCore.QRect(230, 80, 151, 23))
+        self.bt_C12_ChooseH5.setObjectName("bt_C12_ChooseH5")
+        self.bt_C12_Submit = QtWidgets.QPushButton(Form)
+        self.bt_C12_Submit.setGeometry(QtCore.QRect(110, 270, 111, 41))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        self.bt_C12_Submit.setFont(font)
+        self.bt_C12_Submit.setObjectName("bt_C12_Submit")
+        self.bt_C12_Cancel = QtWidgets.QPushButton(Form)
+        self.bt_C12_Cancel.setGeometry(QtCore.QRect(250, 270, 111, 41))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        self.bt_C12_Cancel.setFont(font)
+        self.bt_C12_Cancel.setObjectName("bt_C12_Cancel")
+        self.bt_C12_ChooseDB = QtWidgets.QPushButton(Form)
+        self.bt_C12_ChooseDB.setGeometry(QtCore.QRect(230, 170, 151, 23))
+        self.bt_C12_ChooseDB.setObjectName("bt_C12_ChooseDB")
+        self.lb_C12_H5Name = QtWidgets.QLabel(Form)
+        self.lb_C12_H5Name.setGeometry(QtCore.QRect(160, 110, 291, 20))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.lb_C12_H5Name.setFont(font)
+        self.lb_C12_H5Name.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+        self.lb_C12_H5Name.setObjectName("lb_C12_H5Name")
+        self.lb_C12_reminder = QtWidgets.QLabel(Form)
+        self.lb_C12_reminder.setGeometry(QtCore.QRect(13, 240, 441, 20))
+        self.lb_C12_reminder.setText("")
+        self.lb_C12_reminder.setAlignment(QtCore.Qt.AlignCenter)
+        self.lb_C12_reminder.setObjectName("lb_C12_reminder")
+
+        self.retranslateUi(Form)
+        QtCore.QMetaObject.connectSlotsByName(Form)
+
+    def retranslateUi(self, Form):
+        _translate = QtCore.QCoreApplication.translate
+        Form.setWindowTitle(_translate("Form", "更换数据&模型"))
+        self.label.setText(_translate("Form", "更换数据&模型"))
+        self.lb_C12_DBName.setText(_translate("Form", "已选择："))
+        self.label_3.setText(_translate("Form", "更换数据库："))
+        self.label_4.setText(_translate("Form", "更换人脸识别模型："))
+        self.bt_C12_ChooseH5.setText(_translate("Form", "选择训练好的模型文件"))
+        self.bt_C12_Submit.setText(_translate("Form", "提交"))
+        self.bt_C12_Cancel.setText(_translate("Form", "取消"))
+        self.bt_C12_ChooseDB.setText(_translate("Form", "选择新的数据库文件"))
+        self.lb_C12_H5Name.setText(_translate("Form", "已选择："))
